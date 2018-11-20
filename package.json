@@ -1,0 +1,19 @@
+{
+  "name": "ast",
+  "version": "1.0.0",
+  "description": "- 解析我们的js语法 -> 语法树 - 遍历树(先序深度优先) -> 更改树的内容 - 生成树的内容",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-types": "^6.26.0",
+    "escodegen": "^1.11.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^4.2.0"
+  }
+}
